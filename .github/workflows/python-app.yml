@@ -11,7 +11,7 @@ jobs:
 
     services:
       myapp:
-        image: docker.pkg.github.com/<USERNAME>/<REPOSITORY>/<IMAGE_NAME>:<TAG>
+        image: docker.pkg.github.com/honeymakhija/cdb3345_ica2/myapp-image:latest
         ports:
           - 8080:8080
         options: --entrypoint "python -m test_app" 
